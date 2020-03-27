@@ -1,0 +1,69 @@
+/*	 * BLOCAGE sur le bouton prochainement et je n'arrive pas à choisir l'espacement entre les images */
+
+body {
+	width: 100%;
+	margin : 0px;
+}
+
+p, h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header, footer, footer a, #prochainement a {
+	background-color : #579c87;
+	color: #fdcb46;
+}
+
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h1 {
+	margin : 0px;
+	padding : 30px 0px;
+	font-size : 3rem;
+}
+
+
+nav {
+	width : 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.flexbox_menu, footer {
+	display : flex;
+	margin : 30px 0px;
+}
+
+.flexbox_menu img {
+	width : 70%;
+	box-shadow : 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+
+#prochainement {
+	text-align: center;
+}
+
+#prochainement a {
+	padding : 5px 50px;
+	border-radius: 20%;
+	font-size : 1.3rem;
+}
+
+footer {
+	margin : 0px;
+	width : 100%;
+	justify-content : space-between;
+}
+
+footer p {
+	margin: 20px 20px;
+}
