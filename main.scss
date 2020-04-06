@@ -1,10 +1,17 @@
+@import "./sass/utils/variables.scss";
+/* @import "./sass/utils/functions.scss"; */
+@import "./sass/utils/mixins.scss";
+
+
+@import "./sass/base/fonts.scss";
+
 body {
 	width: 100%;
 	margin : 0px;
 }
 
 p, h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: map-get($police, logo);
 }
 
 a {
@@ -12,12 +19,14 @@ a {
 }
 
 header, footer, footer a, #prochainement a, h1 a {
-	background-color : #579c87;
-	color: #fdcb46;
+    @include couleurs;
 }
+
+
  
 
 header {
+    @include couleurs;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -25,7 +34,10 @@ header {
 h1 {
 	margin : 0px;
 	padding : 30px 0px;
-	font-size : 3rem;
+    font-size : 3rem;
+    a {
+        @include couleurs;
+    }
 }
 
 
@@ -41,30 +53,35 @@ nav {
 	justify-content: center;
 }
 
-.flexbox_menu img {
+.flexbox_menu {
+    img {
 	width : 300px;
 	box-shadow : 0px 0px 7px rgba(0, 0, 0, 0.5);
-	margin : 15px 30px;
+    margin : 15px 30px;
+    }
 }
 
 
 #prochainement {
-	text-align: center;
-}
-
-#prochainement a {
-	padding : 5px 50px;
-	border-radius: 8px;
-	font-size : 1.7rem;
+    text-align: center;
+    a {
+        @include couleurs;
+        padding : 5px 50px;
+        border-radius: 8px;
+        font-size : 1.7rem;
+    }
 }
 
 footer {
+    @include couleurs;
 	margin-bottom : 0px;
 	margin-top : 30px;
 	width : 100%;
-	justify-content : space-between;
-}
-
-footer p {
-	margin: 20px 20px;
+    justify-content : space-between;
+    p {
+        margin: 20px 20px;
+    }
+    a {
+        @include couleurs;
+    }
 }
