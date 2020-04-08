@@ -12,10 +12,45 @@ nav {
         flex-wrap : wrap;
         justify-content: center;
         
-        img {
+        &--menu {
             width : 300px;
+            height: 400px;
             box-shadow : 0px 0px 7px rgba(0, 0, 0, 0.5);
             margin : 15px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;           
         }
+
+        h2 {
+            font-family: 'Comic sans ms' ;
+            text-transform: uppercase;
+        }
+
+    }
+}
+
+// NOTE ENCHANTEE 
+
+.note_enchantee {
+    text-align: center;
+    background-color: map-get($note_enchantee, bg);
+    color: map-get($note_enchantee, font-color);
+    i {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-family: map-get($note_enchantee, font-main), cursive, serif;
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-family: 'Comic sans ms' ;
+        text-transform: uppercase;
+        font-style: italic;
     }
 }

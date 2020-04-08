@@ -5,3 +5,15 @@ $font_main: 'Open Sans'; /* police principale */
 $font_note: 'Devonshire'; /* police La note enchantée*/
 $font_default: sans-serif; /* police défaut */
 
+$fonts : (
+    font-main: 'Open Sans',
+    font-note: 'Devonshire',
+    font-defaut: 'sans-serif'
+);
+
+$note_enchantee : (
+    font-main: 'Devonshire',
+    font-second : 'Comic sans ms',
+    font-color: #3d1319,
+    bg: #fde0dc
+);
