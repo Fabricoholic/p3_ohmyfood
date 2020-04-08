@@ -1,9 +1,12 @@
-.nav {
+nav {
 	width : 100%;
     margin: auto;
     max-width: 1000px;
+}
 
-    &_flexbox { // même que footer = faire une mixin ?
+.navigation {
+
+    &_menus { // même que footer = faire une mixin ?
         display : flex;
         margin : 30px 0px;
         flex-wrap : wrap;
