@@ -1,70 +1,10 @@
-body {
-	width: 100%;
-	margin : 0px;
-}
+@import "./sass/utils/variables";
+@import "./sass/utils/mixins";
 
-p, h1 {
-	font-family: 'Open Sans', sans-serif;
-}
+@import "./sass/base/base";
+@import "./sass/base/typography";
 
-a {
-	text-decoration: none;
-}
+@import "./sass/composants/buttons";
 
-header, footer, footer a, #prochainement a, h1 a {
-	background-color : #579c87;
-	color: #fdcb46;
-}
- 
-
-header {
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-h1 {
-	margin : 0px;
-	padding : 30px 0px;
-	font-size : 3rem;
-}
-
-
-nav {
-	width : 100%;
-	margin: auto;
-}
-
-.flexbox_menu, footer {
-	display : flex;
-	margin : 30px 0px;
-	flex-wrap : wrap;
-	justify-content: center;
-}
-
-.flexbox_menu img {
-	width : 300px;
-	box-shadow : 0px 0px 7px rgba(0, 0, 0, 0.5);
-	margin : 15px 30px;
-}
-
-
-#prochainement {
-	text-align: center;
-}
-
-#prochainement a {
-	padding : 5px 50px;
-	border-radius: 8px;
-	font-size : 1.7rem;
-}
-
-footer {
-	margin-bottom : 0px;
-	margin-top : 30px;
-	width : 100%;
-	justify-content : space-between;
-}
-
-footer p {
-	margin: 20px 20px;
-}
+@import "./sass/layout/header_footer";
+@import "./sass/layout/nav";

@@ -1,69 +1,118 @@
+@charset "UTF-8";
+/* fonds des boutons, entête... */
+/* couleur de textes */
+/* police principale */
+/* police La note enchantée*/
+/* police défaut */
+@import url("https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Oswald&display=swap");
 body {
   width: 100%;
   margin: 0px;
-}
-
-p, h1 {
-  font-family: "Open Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-header, footer, footer a, #prochainement a, h1 a {
+.btn_prochainement {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.btn_prochainement a {
+  background-color: #579c87;
+  color: #fdcb46;
+  padding: 5px 50px;
+  border-radius: 8px;
+  font-size: 1.7rem;
+}
+
+header {
+  background-color: #579c87;
+  color: #fdcb46;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1 {
+  margin: 0px;
+  padding: 30px 0px;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+header h1 a {
   background-color: #579c87;
   color: #fdcb46;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-h1 {
-  margin: 0px;
-  padding: 30px 0px;
-  font-size: 3rem;
-}
-
-nav {
-  width: 100%;
-  margin: auto;
-}
-
-.flexbox_menu, footer {
+footer {
   display: flex;
   margin: 30px 0px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.flexbox_menu img {
-  width: 300px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
-  margin: 15px 30px;
-}
-
-#prochainement {
-  text-align: center;
-}
-
-#prochainement a {
-  padding: 5px 50px;
-  border-radius: 8px;
-  font-size: 1.7rem;
-}
-
 footer {
+  background-color: #579c87;
+  color: #fdcb46;
+  width: 100%;
   margin-bottom: 0px;
   margin-top: 30px;
-  width: 100%;
   justify-content: space-between;
+  font-size: 1.2rem;
+}
+footer p {
+  margin: 10px 20px;
+}
+footer a {
+  background-color: #579c87;
+  color: #fdcb46;
+  font-family: "Open Sans", sans-serif;
 }
 
-footer p {
-  margin: 20px 20px;
+nav {
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.navigation_menus {
+  display: flex;
+  margin: 30px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navigation_menus--menu {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  margin: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navigation_menus h2 {
+  font-family: "Comic sans ms";
+  text-transform: uppercase;
+}
+
+.note_enchantee {
+  text-align: center;
+  background-color: #fde0dc;
+  color: #3d1319;
+}
+.note_enchantee i {
+  font-size: 3rem;
+}
+.note_enchantee h1 {
+  font-family: "Devonshire", cursive, serif;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.note_enchantee h2 {
+  font-family: "Comic sans ms";
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */

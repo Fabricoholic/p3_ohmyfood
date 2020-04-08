@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="fr">
 		<head>
 			<meta charset="utf-8"/>
 
+			<!-- VIEWPORT -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<!-- CSS -->
 			<link rel="stylesheet" href="style.css" />
 
-			<!-- GOOGLE FONTS -->
-			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">	
+			 <!-- FONT AWESOME --> 
+			 <script src="https://kit.fontawesome.com/367cc7fbf6.js" crossorigin="anonymous"></script>
+
 
 			<title>ohmyfood</title>
 		</head>
@@ -15,33 +20,53 @@
 			
 			<header>
 				<h1><a href="index.html">ohmyfood</a></h1>
-
-					<!-- <img src="images/logo.png" alt="Ohmyfood"></h1>J'hésite entre utilise le logo en image ou en texte; Le texte serait moins lourd mais il faut trouver la même police -->
 			</header>
 
-			<nav>
-				<div class="flexbox_menu">	<!-- DEBUT FLEXBOX -->
-					<div  class="menu">
-						<a href=""><img src="Menus_V2/menu-1b.png" alt="menu_1"></a>
-					</div>
+			<nav> <!-- MENU NAVIGATION -->
 
-					<div class="menu">
-						<a href=""><img src="Menus_V2/menu-2b.png" alt="menu_2"></a>
-					</div>
-				</div> <!-- FIN FLEXBOX -->
+				<div class="navigation">
 
-				<div class="flexbox_menu">	<!-- DEBUT FLEXBOX -->
-					<div class="menu">
-						<a href=""><img src="Menus_V2/menu-3b.png" alt="menu_3"></a>
-					</div>
+					<div class="navigation_menus">	<!-- DEBUT FLEXBOX -->
 
-					<div class="menu">
-						<a href=""><img src="Menus_V2/menu-4b.png" alt="menu_4"></a>
-					</div>	<!-- FIN FLEXBOX -->
-				</div> 
+						<a href="./pages/note_enchantee.html" target="_blank">
+							<div class="navigation_menus--menu note_enchantee">		
+								<i class="fas fa-music"></i>
+								<h1>La note enchantée</h1>
+								<h2>Menu</h2>	
+							</div> 
+						</a>
+
+						<a href="./pages/chic_francaise.html" target="_blank">
+							<div class="navigation_menus--menu chic_francaise">		
+								<h1>Le chic à la française</h1>
+								<h2>Menu</h2>	
+							</div> 
+						</a>
+
+						<a href="./pages/delice_papilles.html.html" target="_blank">
+							<div class="navigation_menus--menu chic_francaise">		
+								<h1>Le délice des papilles</h1>
+								<h2>Menu</h2>	
+							</div> 
+						</a>
+
+						<a href="./pages/palette_gout.html.html" target="_blank">
+							<div class="navigation_menus--menu chic_francaise">		
+								<h1>La palette du goût</h1>
+								<h2>Menu</h2>	
+							</div> 
+						</a>
+						
+
+					</div> <!-- FIN FLEXBOX -->
+				</div>
 			</nav>
 
-			<div id="prochainement"><p><a href="">Prochainement</a></p></div>
+			<div class="btn_prochainement">
+				<p>
+					<a href="">Prochainement</a>
+				</p>
+			</div>
 
 		
 
