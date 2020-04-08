@@ -1,0 +1,9 @@
+#prochainement {
+    text-align: center;
+    a {
+        @include couleurs;
+        padding : 5px 50px;
+        border-radius: 8px;
+        font-size : 1.7rem;
+    }
+}

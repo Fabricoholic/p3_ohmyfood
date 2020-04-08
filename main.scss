@@ -1,45 +1,21 @@
-@import "./sass/utils/variables.scss";
-/* @import "./sass/utils/functions.scss"; */
-@import "./sass/utils/mixins.scss";
+@import "./sass/utils/variables";
+@import "./sass/utils/mixins";
 
+@import "./sass/base/base";
+@import "./sass/base/typography";
 
-@import "./sass/base/fonts.scss";
+@import "./sass/composants/buttons";
 
-body {
-	width: 100%;
-	margin : 0px;
-}
+@import "./sass/layout/header_footer";
+@import "./sass/layout/nav";
 
 p, h1 {
-	font-family: map-get($police, logo);
+	font-family: $font_main, $font-default;
 }
 
 a {
 	text-decoration: none;
 }
-
-header, footer, footer a, #prochainement a, h1 a {
-    @include couleurs;
-}
-
-
- 
-
-header {
-    @include couleurs;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-h1 {
-	margin : 0px;
-	padding : 30px 0px;
-    font-size : 3rem;
-    a {
-        @include couleurs;
-    }
-}
-
 
 nav {
 	width : 100%;
@@ -62,15 +38,7 @@ nav {
 }
 
 
-#prochainement {
-    text-align: center;
-    a {
-        @include couleurs;
-        padding : 5px 50px;
-        border-radius: 8px;
-        font-size : 1.7rem;
-    }
-}
+
 
 footer {
     @include couleurs;
@@ -85,3 +53,4 @@ footer {
         @include couleurs;
     }
 }
+
