@@ -21,10 +21,10 @@ a {
   font-family: "Devonshire";
   src: url("./devonshire-regular.ttf");
 }
-#prochainement {
+.btn_prochainement {
   text-align: center;
 }
-#prochainement a {
+.btn_prochainement a {
   background-color: #579c87;
   color: #fdcb46;
   padding: 5px 50px;
