@@ -74,45 +74,48 @@ nav {
   max-width: 1000px;
 }
 
-.navigation_menus {
+.navigation {
   display: flex;
   margin: 30px 0px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.navigation_menus--menu {
+.navigation h2 {
+  font-family: "Comic sans ms";
+  text-transform: uppercase;
+}
+.navigation_menus {
   width: 300px;
-  height: 400px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  height: 460px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
   margin: 15px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.navigation_menus h2 {
-  font-family: "Comic sans ms";
-  text-transform: uppercase;
-}
 
+/*
 .note_enchantee {
-  text-align: center;
-  background-color: #fde0dc;
-  color: #3d1319;
-}
-.note_enchantee i {
-  font-size: 3rem;
-}
-.note_enchantee h1 {
-  font-family: "Devonshire", cursive, serif;
-  font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.note_enchantee h2 {
-  font-family: "Comic sans ms";
-  text-transform: uppercase;
-  font-style: italic;
-}
+    text-align: center;
+    background-color: map-get($note_enchantee, bg);
+    color: map-get($note_enchantee, font-color);
+    i {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-family: map-get($note_enchantee, font-main), cursive, serif;
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-family: 'Comic sans ms' ;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+}*/
 
 /*# sourceMappingURL=style.css.map */
