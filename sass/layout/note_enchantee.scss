@@ -1,0 +1,25 @@
+// NOTE ENCHANTEE 
+
+.note_enchantee {
+    background-color: map-get($note_enchantee, bg);
+    color: map-get($note_enchantee, font-color);
+    i {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-family: map-get($note_enchantee, font-main), cursive, serif;
+        font-size: 2rem;
+        font-weight : normal;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-family: Itim;
+        font-size : 2rem;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}
