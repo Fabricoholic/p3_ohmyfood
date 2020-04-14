@@ -1,0 +1,15 @@
+footer {
+    @include couleurs;
+    width : 100%;
+	margin-bottom : 0px;
+	margin-top : 30px;
+    justify-content : space-between;
+    font-size : 1.2rem;
+    p {
+        margin: 10px 20px;
+    }
+    a {
+        @include couleurs;
+        font-family: $font_main, $font-default;
+    }
+}
