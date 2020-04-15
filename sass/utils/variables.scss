@@ -1,19 +1,45 @@
+/* VARIABLES */
+
 $bg: #579c87; //fonds des boutons, entête... */
 $text: #fdcb46; // couleur de textes */
 
-$font_main: 'Open Sans'; // police principale */
-$font_note: 'Devonshire'; // police La note enchantée*/
+$font_main: 'Open Sans'; // police H1 et footer */
 $font_default: sans-serif; // police défaut */
 
-$fonts : (
-    font-main: 'Open Sans',
-    font-note: 'Devonshire',
-    font-defaut: 'sans-serif'
-);
+/* MAPS */
 
 $note_enchantee : (
     font-main: 'Devonshire',
     font-second : 'Itim',
     font-color: #3d1319,
     bg: #fde0dc
+);
+
+$chic : (
+    font-main: 'Croissant One',
+    font-second : 'UTM Times',
+    font-p : 'UTM Times',
+    color1: #c67411,
+    color2: #a56798,
+    color3: #6e4ccc,
+    bg: #fff5fe
+);
+
+$delice : (
+    font-main: 'Dancing Script',
+    font-second : 'Kalam',
+    color1: #0128dd,
+    color2: #0570f3,
+    color3: #219cf9,
+    bg-nav: #f9f9f9,
+    bg-menu: #edefef
+);
+
+$palette : (
+    font-main: 'Kaushan Script',
+    font-second : 'Comic sans ms',
+    color1: #51a444,
+    color2: #bafc7c,
+    color3: #72bf55,
+    bg: #fdfffd
 );

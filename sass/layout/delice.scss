@@ -1,0 +1,58 @@
+/* LE DELICE DES PAPILLES - NAVIGATION */ 
+
+.delice_papilles {
+    background-color: map-get($delice, bg-nav);
+    color: map-get($delice, font-color);
+    i {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-family: map-get($delice, font-main), serif;
+        font-size: 2rem;
+        font-weight : normal;
+        color: map-get($delice, color1);
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-family: map-get($delice, font-second), serif;
+        font-size : 2rem;
+        font-weight: normal;
+        font-style: italic;
+        color: map-get($delice, color1);
+    }
+}
+
+/* LE DELICE DES PAPILLES - PAGE */
+
+#page_delice {
+    h3 {
+        text-align : center;
+        font-family : map-get($delice, font-main);
+        color: map-get($delice, color1);
+        font-weight : normal;
+        font-size : 3.5rem;
+        margin: 20px 0px;
+    }
+    section {
+        padding : 20px 0;
+    }
+    h4   {
+        font-family: map-get($delice, font-second);
+        font-weight : normal;
+        text-align: center;
+        font-size : 1.5rem;
+        margin : 20px 0;
+    }
+    p {
+        font-family: map-get($delice, font-second);
+    }
+    .menu_restau {
+        background-color: map-get($delice, bg-menu);
+        &--desserts {
+            margin-bottom: 40px;
+        }
+    }
+}

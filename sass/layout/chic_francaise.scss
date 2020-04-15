@@ -1,0 +1,63 @@
+
+/* CHIC A LA FRANCAISE - NAVIGATION */ 
+
+.chic_francaise {
+    background-color: map-get($chic, bg);
+    color: map-get($chic, font-color);
+    i {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-family: map-get($chic, font-main), serif;
+        font-size: 1.5rem;
+        font-weight : normal;
+        color: map-get($chic, color1);
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size : 1.8rem;
+        font-weight: bold;
+        color: map-get($chic, color1);
+    }
+}
+
+/* CHIC A LA FRANCAISE - PAGE */
+
+#page_chic {
+    h3 {
+        text-align : center;
+        font-family : map-get($chic, font-main);
+        color: map-get($chic, color1);
+        font-weight : normal;
+        font-size : 2.1rem;
+    }
+    section {
+        padding : 20px 0;
+    }
+    h4   {
+        font-family: map-get($chic, font-second);
+        text-align: center;
+        font-size : 1.3rem;
+        margin : 20px 0;
+    }
+    .menu_restau--entrees {
+        color : map-get($chic, color1);
+    }
+    .menu_restau--plats {
+        color : map-get($chic, color2);
+    }
+    .menu_restau--desserts {
+        color : map-get($chic, color3);
+    }
+    p {
+        font-family: map-get($chic, font-second);
+        font-style : normal;
+    }
+    .menu_restau {
+        background-color :map-get($chic, bg);
+    }
+}

@@ -1,7 +1,28 @@
+/* CSS DE BASE */
+
 body {
 	width: 100%;
 	margin : 0px;
 }
+
+
+.menu_flex {
+	display:flex;
+	justify-content : space-between;
+    flex-wrap : wrap;  
+}
+
+.menu_restau {
+	width : 600px;
+	margin: auto;
+	margin-bottom : 50px;
+	padding : 20px 40px;
+	@include shadow;
+	section {
+		padding : 15px 0;
+	}
+}
+
 
 a {
 	text-decoration: none;
@@ -14,16 +35,11 @@ h2 {
 	font-size: 2rem;
 }
 
-.menu_restau {
-	width : 600px;
-	margin: auto;
-	margin-bottom : 50px;
-	padding : 20px 40px;
-	@include shadow;
+h3 {
+	color : red;
 }
 
-.menu_flex {
-	display:flex;
-	justify-content : space-between;
-    flex-wrap : wrap;  
+p {
+	margin: 8px 0;
 }
+
