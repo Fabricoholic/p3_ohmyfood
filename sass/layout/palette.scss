@@ -17,8 +17,8 @@
         font-family: Itim;
         font-size : 2rem;
         font-weight: normal;
-        font-style: italic;
         color: map-get($palette, color3);
+        font-family: map-get($palette, font-second), serif;
     }
 }
 
@@ -27,7 +27,7 @@
 #page_palette {
     h3 {
         text-align : center;
-        font-family : map-get($palette, font-main);
+        font-family : map-get($palette, font-main), serif;
         color: map-get($palette, color1);
         font-weight : normal;
         font-size : 2.1rem;
@@ -36,13 +36,18 @@
         padding : 20px 0;
     }
     h4   {
-        font-family: map-get($palette, font-second);
+        font-family: map-get($palette, font-p), serif;
+        font-weight: normal;
+        font-style: italic;
         text-align: center;
-        font-size : 1.5rem;
+        font-size : 1.4rem;
         margin : 20px 0;
     }
     p {
-        font-family: map-get($palette, font-second);
+        font-family: map-get($palette, font-p), sans-serif;
+        font-style: italic;
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .menu_restau {
         background-color :map-get($palette, bg);

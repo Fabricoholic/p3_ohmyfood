@@ -20,7 +20,6 @@
         font-family: map-get($delice, font-second), serif;
         font-size : 2rem;
         font-weight: normal;
-        font-style: italic;
         color: map-get($delice, color1);
     }
 }
@@ -48,6 +47,8 @@
     }
     p {
         font-family: map-get($delice, font-second);
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .menu_restau {
         background-color: map-get($delice, bg-menu);

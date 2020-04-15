@@ -3,7 +3,7 @@
 /* MIXINS */
 /* TYPOGRAPHIE */
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Itim&family=Croissant+One&family=Dancing+Script:wght@400;700&family=Dancing+Script:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Kaushan+Script&family=Caveat:wght@400;700&display=swap");
 @font-face {
   font-family: "Alte Haas Grotesk";
   font-weight: normal;
@@ -41,12 +41,6 @@ body {
   margin: 0px;
 }
 
-.menu_flex {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .menu_restau {
   width: 600px;
   margin: auto;
@@ -56,6 +50,16 @@ body {
 }
 .menu_restau section {
   padding: 15px 0;
+}
+
+section {
+  width: 100%;
+}
+
+.menu_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 a {
@@ -234,6 +238,8 @@ nav {
 #page_chic p {
   font-family: "UTM Times";
   font-style: normal;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #page_chic .menu_restau {
   background-color: #fff5fe;
@@ -258,7 +264,6 @@ nav {
   font-family: "Kalam", serif;
   font-size: 2rem;
   font-weight: normal;
-  font-style: italic;
   color: #0128dd;
 }
 
@@ -283,6 +288,8 @@ nav {
 }
 #page_delice p {
   font-family: "Kalam";
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #page_delice .menu_restau {
   background-color: #edefef;
@@ -307,14 +314,14 @@ nav {
   font-family: Itim;
   font-size: 2rem;
   font-weight: normal;
-  font-style: italic;
   color: #72bf55;
+  font-family: "Kalam", serif;
 }
 
 /* LA PALETTE DU GOUT - PAGE */
 #page_palette h3 {
   text-align: center;
-  font-family: "Kaushan Script";
+  font-family: "Kaushan Script", serif;
   color: #51a444;
   font-weight: normal;
   font-size: 2.1rem;
@@ -323,13 +330,18 @@ nav {
   padding: 20px 0;
 }
 #page_palette h4 {
-  font-family: "Comic sans ms";
+  font-family: "Itim", serif;
+  font-weight: normal;
+  font-style: italic;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 20px 0;
 }
 #page_palette p {
-  font-family: "Comic sans ms";
+  font-family: "Itim", sans-serif;
+  font-style: italic;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #page_palette .menu_restau {
   background-color: #fdfffd;
@@ -350,7 +362,7 @@ nav {
 /* FOOTER */
 footer {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
