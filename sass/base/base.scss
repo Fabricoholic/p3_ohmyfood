@@ -6,3 +6,24 @@ body {
 a {
 	text-decoration: none;
 }
+
+
+h2 {
+	text-align: center;
+	font-family: "Alte Haas Grotesk";
+	font-size: 2rem;
+}
+
+.menu_restau {
+	width : 600px;
+	margin: auto;
+	margin-bottom : 50px;
+	padding : 20px 40px;
+	@include shadow;
+}
+
+.menu_flex {
+	display:flex;
+	justify-content : space-between;
+    flex-wrap : wrap;  
+}

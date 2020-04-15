@@ -1,9 +1,12 @@
 footer {
-    @include couleurs;
     width : 100%;
-	margin-bottom : 0px;
-	margin-top : 30px;
+    margin-top : 30px;
+
+    display : flex;
     justify-content : space-between;
+    flex-wrap : wrap;    
+
+    @include couleurs;  
     font-size : 1.2rem;
     p {
         margin: 10px 20px;
