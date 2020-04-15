@@ -1,8 +1,12 @@
+/* TYPOGRAPHIE */
+
 // GOOGLE FONT
-// Contient : Open sans, Devonshire, Itim
+// Contient : Open sans, Devonshire, Itim, Croissant One, Dancing script
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Itim&family=Croissant+One&family=Dancing+Script:wght@400;700&family=Dancing+Script:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap');
+// Contient : Kalam, Kaushan Script
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Kaushan+Script&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Itim&display=swap');
-
+// ALTE HAAS GROTESK
 @font-face {
     font-family: "Alte Haas Grotesk";
     font-weight: normal;
@@ -14,3 +18,29 @@ font-family: "Alte Haas Grotesk";
 font-weight : bold;
 src: url("./fonts/altehaasgroteskbold.ttf");
 }
+
+// UTM TIMES
+
+@font-face {
+    font-family: "UTM Times";
+    font-weight : normal;
+    src: url("./fonts/utmtimes.ttf");
+    }
+
+@font-face {
+    font-family: "UTM Times";
+    font-style : italic;
+    src: url("./fonts/utmtimesbolditalic.ttf");
+    }
+
+@font-face {
+    font-family: "UTM Times";
+    font-weight : bold;
+    src: url("./fonts/utmtimesbold.ttf");
+    }
+@font-face {
+    font-family: "UTM Times";
+    font-weight : bold;
+    font-style : italic;
+    src: url("./fonts/utmtimesbolditalic.ttf");
+    }

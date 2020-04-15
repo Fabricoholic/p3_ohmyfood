@@ -3,7 +3,6 @@
 /* MIXINS */
 /* TYPOGRAPHIE */
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Itim&family=Croissant+One&family=Dancing+Script:wght@400;700&family=Dancing+Script:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Kaushan+Script&display=swap");
 @font-face {
   font-family: "Alte Haas Grotesk";
   font-weight: normal;
@@ -14,48 +13,10 @@
   font-weight: bold;
   src: url("./fonts/altehaasgroteskbold.ttf");
 }
-@font-face {
-  font-family: "UTM Times";
-  font-weight: normal;
-  src: url("./fonts/utmtimes.ttf");
-}
-@font-face {
-  font-family: "UTM Times";
-  font-style: italic;
-  src: url("./fonts/utmtimesbolditalic.ttf");
-}
-@font-face {
-  font-family: "UTM Times";
-  font-weight: bold;
-  src: url("./fonts/utmtimesbold.ttf");
-}
-@font-face {
-  font-family: "UTM Times";
-  font-weight: bold;
-  font-style: italic;
-  src: url("./fonts/utmtimesbolditalic.ttf");
-}
 /* CSS DE BASE */
 body {
   width: 100%;
   margin: 0px;
-}
-
-.menu_flex {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.menu_restau {
-  width: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  padding: 20px 40px;
-  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
-}
-.menu_restau section {
-  padding: 15px 0;
 }
 
 a {
@@ -72,8 +33,18 @@ h3 {
   color: red;
 }
 
-p {
-  margin: 8px 0;
+.menu_restau {
+  width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+}
+
+.menu_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -159,17 +130,19 @@ nav {
 #page_note h3 i {
   font-size: 3rem;
 }
+#page_note section {
+  padding: 20px 0;
+}
 #page_note h4 {
   font-family: "Itim";
   color: #3d1319;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 20px 0;
 }
 #page_note p {
   font-family: "Itim";
   color: #3d1319;
-  font-style: italic;
 }
 #page_note .menu_restau {
   background-color: #fde0dc;
@@ -217,9 +190,9 @@ nav {
   padding: 20px 0;
 }
 #page_chic h4 {
-  font-family: "UTM Times";
+  font-family: "Itim";
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 20px 0;
 }
 #page_chic .menu_restau--entrees {
@@ -232,8 +205,7 @@ nav {
   color: #6e4ccc;
 }
 #page_chic p {
-  font-family: "UTM Times";
-  font-style: normal;
+  font-family: "Itim";
 }
 #page_chic .menu_restau {
   background-color: #fff5fe;
@@ -255,7 +227,7 @@ nav {
   margin-bottom: 10px;
 }
 .delice_papilles h3 {
-  font-family: "Kalam", serif;
+  font-family: "Itim", serif;
   font-size: 2rem;
   font-weight: normal;
   font-style: italic;
@@ -268,38 +240,36 @@ nav {
   font-family: "Dancing Script";
   color: #0128dd;
   font-weight: normal;
-  font-size: 3.5rem;
-  margin: 20px 0px;
+  font-size: 2.1rem;
 }
 #page_delice section {
   padding: 20px 0;
 }
 #page_delice h4 {
-  font-family: "Kalam";
-  font-weight: normal;
+  font-family: "Itim";
   text-align: center;
   font-size: 1.5rem;
   margin: 20px 0;
 }
 #page_delice p {
-  font-family: "Kalam";
+  font-family: "Itim";
 }
 #page_delice .menu_restau {
-  background-color: #edefef;
-}
-#page_delice .menu_restau--desserts {
-  margin-bottom: 40px;
+  background-color: #f9f9f9;
 }
 
 /* LA PALETTE DU GOUT - NAVIGATION */
 .palette_gout {
-  background-color: #fdfffd;
+  background-color: #fff5fe;
+}
+.palette_gout i {
+  font-size: 2.5rem;
 }
 .palette_gout h2 {
-  font-family: "Kaushan Script", serif;
-  font-size: 1.8rem;
+  font-family: "Croissant One", serif;
+  font-size: 1.5rem;
   font-weight: normal;
-  color: #51a444;
+  color: #c67411;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -308,14 +278,14 @@ nav {
   font-size: 2rem;
   font-weight: normal;
   font-style: italic;
-  color: #72bf55;
+  color: #c67411;
 }
 
 /* LA PALETTE DU GOUT - PAGE */
 #page_palette h3 {
   text-align: center;
-  font-family: "Kaushan Script";
-  color: #51a444;
+  font-family: "Croissant One";
+  color: #c67411;
   font-weight: normal;
   font-size: 2.1rem;
 }
@@ -323,16 +293,16 @@ nav {
   padding: 20px 0;
 }
 #page_palette h4 {
-  font-family: "Comic sans ms";
+  font-family: "Itim";
   text-align: center;
   font-size: 1.5rem;
   margin: 20px 0;
 }
 #page_palette p {
-  font-family: "Comic sans ms";
+  font-family: "Itim";
 }
 #page_palette .menu_restau {
-  background-color: #fdfffd;
+  background-color: #fff5fe;
 }
 
 .btn_prochainement {
