@@ -43,7 +43,6 @@ body {
 
 .page {
   width: 100%;
-  max-width: 1024px;
   margin: auto;
 }
 
@@ -96,7 +95,7 @@ header {
 
 h1 {
   margin: 0px;
-  padding: 30px 0px;
+  padding: 20px 0px;
   font-size: 3rem;
   font-family: "Open Sans", sans-serif;
 }
@@ -371,6 +370,7 @@ nav {
 .btn_prochainement {
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 80px;
 }
 .btn_prochainement a {
   background-color: #579c87;
@@ -382,7 +382,10 @@ nav {
 
 /* FOOTER */
 footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
+  max-width: 1024px;
   margin-top: 60px;
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,7 @@
 .btn_prochainement {
     text-align: center;
     font-family: $font_main, $font-default;
+    padding-bottom: 80px;
     a {
         @include couleurs;
         padding : 5px 50px;
