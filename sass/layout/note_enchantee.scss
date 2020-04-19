@@ -3,13 +3,18 @@
 
 .note_enchantee {
     background-color: map-get($note_enchantee, bg);
-    color: map-get($note_enchantee, font-color);
+    &:hover {
+        @include fond($note_enchantee)
+    }
+
     i {
         font-size: 2.5rem;
+        color: map-get($note_enchantee, font-color);
     }
 
     h2 {
         font-family: map-get($note_enchantee, font-main), cursive, serif;
+        color: map-get($note_enchantee, font-color);
         font-size: 2rem;
         font-weight : normal;
         margin-top: 0;

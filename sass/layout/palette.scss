@@ -9,6 +9,10 @@
     background-color: map-get($palette, bg);
     color: map-get($palette, font-color);
 
+    &:hover {
+        @include fond($palette);
+    }
+
     h2 {
         font-family: map-get($palette, font-main), serif;
         font-size: 1.8rem;

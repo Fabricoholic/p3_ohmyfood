@@ -7,9 +7,8 @@
 
 .chic_francaise {
     background-color: map-get($chic, bg);
-    color: map-get($chic, font-color);
-    i {
-        font-size: 2.5rem;
+    &:hover {
+        @include fond($chic);
     }
 
     h2 {

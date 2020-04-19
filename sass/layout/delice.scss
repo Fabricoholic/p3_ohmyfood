@@ -7,7 +7,11 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
 }
 
 .delice_papilles {
-    background-color: map-get($delice, bg-nav);
+    background-color: map-get($delice, bg);
+
+    &:hover {
+        @include fond($delice)
+    }
 
     h2 {
         font-family: map-get($delice, font-main), serif;
@@ -53,7 +57,7 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
         margin-right: 40px;
     }
     .menu_restau {
-        background-color: map-get($delice, bg-menu);
+        background-color: map-get($delice, bg);
         &--desserts {
             margin-bottom: 40px;
         }
