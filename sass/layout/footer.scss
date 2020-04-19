@@ -15,9 +15,14 @@ footer {
     font-size : 1.2rem;
     p {
         margin: 10px 20px;
+        &:hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+        }
     }
     a {
         @include couleurs;
         font-family: $font_main, $font-default;
     }
+
 }
