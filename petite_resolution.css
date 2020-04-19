@@ -1,12 +1,10 @@
-.menu_restau {
+.menu_restau, footer {
     text-align : center;
 }
 
 
-.menu_flex {
-	display: flex;
+.menu_flex, footer {
 	flex-direction: column;
-    flex-wrap: nowrap;
 }
 
 #page_note h3, #page_chic h3, #page_delice h3, #page_palette h3 {

@@ -1,17 +1,19 @@
 /* LE DELICE DES PAPILLES - NAVIGATION */ 
 
+.delice_papilles h2, #page_delice h3 {
+background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($delice, color2), map-get($delice, color3));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 .delice_papilles {
     background-color: map-get($delice, bg-nav);
-    color: map-get($delice, font-color);
-    i {
-        font-size: 2.5rem;
-    }
 
     h2 {
         font-family: map-get($delice, font-main), serif;
         font-size: 2rem;
         font-weight : normal;
-        color: map-get($delice, color1);
+
         margin-top: 0;
         margin-bottom: 10px;
     }
@@ -20,7 +22,7 @@
         font-family: map-get($delice, font-second), serif;
         font-size : 2rem;
         font-weight: normal;
-        color: map-get($delice, color1);
+        color: map-get($delice, color3);
     }
 }
 

@@ -1,5 +1,10 @@
 /* LA PALETTE DU GOUT - NAVIGATION */ 
 
+.palette_gout h2, #page_palette h3 {
+    @include radient($palette);
+}
+
+
 .palette_gout {
     background-color: map-get($palette, bg);
     color: map-get($palette, font-color);
@@ -8,7 +13,8 @@
         font-family: map-get($palette, font-main), serif;
         font-size: 1.8rem;
         font-weight : normal;
-        color: map-get($palette, color1);
+        //color: map-get($palette, color1);
+        @include radient($palette);
         margin-top: 0;
         margin-bottom: 10px;
     }
@@ -17,7 +23,7 @@
         font-family: Itim;
         font-size : 2rem;
         font-weight: normal;
-        color: map-get($palette, color3);
+        color: map-get($palette, color2);
         font-family: map-get($palette, font-second), serif;
     }
 }
@@ -30,7 +36,7 @@
         font-family : map-get($palette, font-main), serif;
         color: map-get($palette, color1);
         font-weight : normal;
-        font-size : 2.1rem;
+        font-size : 2.5rem;
     }
     section {
         padding : 20px 0;

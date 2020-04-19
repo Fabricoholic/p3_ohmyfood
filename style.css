@@ -41,8 +41,14 @@ body {
   margin: 0px;
 }
 
+.page {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
 .menu_restau {
-  width: 600px;
+  width: 60%;
   margin: auto;
   margin-bottom: 50px;
   padding: 20px 40px;
@@ -119,7 +125,7 @@ nav {
   align-items: center;
   width: 300px;
   height: 460px;
-  margin: 15px 30px;
+  margin: 30px;
   text-align: center;
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
 }
@@ -152,7 +158,7 @@ nav {
   color: #3d1319;
 }
 
-/* CHIC A LA FRANCAISE - PAGE */
+/* LA NOTE ENCHANTEE - PAGE */
 #page_note h3 {
   text-align: center;
   font-family: "Devonshire";
@@ -188,6 +194,12 @@ nav {
 }
 
 /* CHIC A LA FRANCAISE - NAVIGATION */
+.chic_francaise h2, #page_chic h3 {
+  background: linear-gradient(to right, #d8852e, #a56798, #6e4ccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .chic_francaise {
   background-color: #fff5fe;
 }
@@ -196,9 +208,8 @@ nav {
 }
 .chic_francaise h2 {
   font-family: "Croissant One", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: normal;
-  color: #c67411;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -206,14 +217,14 @@ nav {
   font-family: "Playfair Display", serif;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #c67411;
+  color: #d8852e;
 }
 
 /* CHIC A LA FRANCAISE - PAGE */
 #page_chic h3 {
   text-align: center;
   font-family: "Croissant One";
-  color: #c67411;
+  color: #d8852e;
   font-weight: normal;
   font-size: 2.1rem;
 }
@@ -227,7 +238,7 @@ nav {
   margin: 20px 0;
 }
 #page_chic .menu_restau--entrees {
-  color: #c67411;
+  color: #d8852e;
 }
 #page_chic .menu_restau--plats {
   color: #a56798;
@@ -246,17 +257,19 @@ nav {
 }
 
 /* LE DELICE DES PAPILLES - NAVIGATION */
+.delice_papilles h2, #page_delice h3 {
+  background: linear-gradient(to right, #0128dd 50%, #219cf9, #0570f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .delice_papilles {
   background-color: #f9f9f9;
-}
-.delice_papilles i {
-  font-size: 2.5rem;
 }
 .delice_papilles h2 {
   font-family: "Dancing Script", serif;
   font-size: 2rem;
   font-weight: normal;
-  color: #0128dd;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -264,7 +277,7 @@ nav {
   font-family: "Kalam", serif;
   font-size: 2rem;
   font-weight: normal;
-  color: #0128dd;
+  color: #0570f3;
 }
 
 /* LE DELICE DES PAPILLES - PAGE */
@@ -299,6 +312,12 @@ nav {
 }
 
 /* LA PALETTE DU GOUT - NAVIGATION */
+.palette_gout h2, #page_palette h3 {
+  background: linear-gradient(to right, #51a444, #72bf55, #bafc7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .palette_gout {
   background-color: #fdfffd;
 }
@@ -306,7 +325,9 @@ nav {
   font-family: "Kaushan Script", serif;
   font-size: 1.8rem;
   font-weight: normal;
-  color: #51a444;
+  background: linear-gradient(to right, #51a444, #72bf55, #bafc7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -324,7 +345,7 @@ nav {
   font-family: "Kaushan Script", serif;
   color: #51a444;
   font-weight: normal;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 #page_palette section {
   padding: 20px 0;
@@ -356,7 +377,7 @@ nav {
   color: #fdcb46;
   padding: 5px 50px;
   border-radius: 8px;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 /* FOOTER */

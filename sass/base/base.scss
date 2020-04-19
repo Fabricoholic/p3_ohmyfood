@@ -5,9 +5,15 @@ body {
 	margin : 0px;
 }
 
+.page {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+}
+
 
 .menu_restau {
-	width : 600px;
+	width : 60%;
 	margin: auto;
 	margin-bottom : 50px;
 	padding : 20px 40px;

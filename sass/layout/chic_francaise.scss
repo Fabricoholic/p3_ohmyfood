@@ -1,6 +1,10 @@
 
 /* CHIC A LA FRANCAISE - NAVIGATION */ 
 
+.chic_francaise h2, #page_chic h3 {
+    @include radient($chic);
+}
+
 .chic_francaise {
     background-color: map-get($chic, bg);
     color: map-get($chic, font-color);
@@ -10,9 +14,8 @@
 
     h2 {
         font-family: map-get($chic, font-main), serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight : normal;
-        color: map-get($chic, color1);
         margin-top: 0;
         margin-bottom: 10px;
     }
