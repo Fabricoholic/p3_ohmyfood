@@ -1,6 +1,7 @@
 /* VARIABLES */
 /* MAPS */
 /* MIXINS */
+/* JE VOUDRAIS EN FAIRE UNE LOOP POUR ADAPTER SELON LES FONDS */
 /* TYPOGRAPHIE */
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Itim&family=Croissant+One&family=Dancing+Script:wght@400;700&family=Dancing+Script:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Kaushan+Script&family=Caveat:wght@400;700&display=swap");
@@ -130,7 +131,7 @@ nav {
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
 }
 .menus a {
-  transition: transform 200ms, opacity 200ms;
+  transition: transform 400ms;
 }
 .menus a:hover {
   transform: scale(1.1);
@@ -144,9 +145,10 @@ h3 {
 /* LA NOTE ENCHANTEE - NAVIGATION */
 .note_enchantee {
   background-color: #fde0dc;
+  transition: background-color 300ms 50ms;
 }
 .note_enchantee:hover {
-  background-color: rgba(253, 224, 220, 0.8);
+  background-color: rgba(253, 224, 220, 0.3);
 }
 .note_enchantee i {
   font-size: 2.5rem;
@@ -215,7 +217,7 @@ h3 {
   background-color: #fff5fe;
 }
 .chic_francaise:hover {
-  background-color: rgba(255, 245, 254, 0.8);
+  background-color: rgba(255, 245, 254, 0.3);
 }
 .chic_francaise h2 {
   font-family: "Croissant One", serif;
@@ -278,7 +280,7 @@ h3 {
   background-color: #f9f9f9;
 }
 .delice_papilles:hover {
-  background-color: rgba(249, 249, 249, 0.8);
+  background-color: rgba(249, 249, 249, 0.3);
 }
 .delice_papilles h2 {
   font-family: "Dancing Script", serif;
@@ -336,7 +338,7 @@ h3 {
   background-color: #fdfffd;
 }
 .palette_gout:hover {
-  background-color: rgba(253, 255, 253, 0.8);
+  background-color: rgba(253, 255, 253, 0.3);
 }
 .palette_gout h2 {
   font-family: "Kaushan Script", serif;

@@ -19,6 +19,7 @@
 }
 
 // Changement de couleur du fond du menu quand on survole (index)
+/* JE VOUDRAIS EN FAIRE UNE LOOP POUR ADAPTER SELON LES FONDS */
 @mixin fond($restaurant) {
-    background-color: transparentize(map-get($restaurant, bg), 0.2%);
+    background-color: transparentize(map-get($restaurant, bg), 0.7%);
 }

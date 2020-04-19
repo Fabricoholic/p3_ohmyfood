@@ -28,7 +28,7 @@ nav {
     @include shadow;  
     
     a {
-        transition : transform 200ms, opacity 200ms;
+        transition : transform 400ms;
         &:hover {
             transform: scale(1.10);
         }

@@ -3,6 +3,7 @@
 
 .note_enchantee {
     background-color: map-get($note_enchantee, bg);
+    transition : background-color 300ms 50ms;
     &:hover {
         @include fond($note_enchantee)
     }
