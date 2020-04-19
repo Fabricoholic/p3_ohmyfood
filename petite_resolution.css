@@ -2,6 +2,11 @@
     text-align : center;
 }
 
+.menu_restau {
+    padding : 20px 10px;
+    width: 90%;
+    margin-bottom : 150px;
+}
 
 .menu_restau p {
     font-size : 1rem;
@@ -22,3 +27,4 @@
 .btn_prochainement {
     padding-bottom: 120px;
 }
+

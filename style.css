@@ -83,8 +83,9 @@ body {
 }
 
 .menu_restau {
-  width: 40%;
+  width: 50%;
   min-width: 200px;
+  max-width: 700px;
   margin: auto;
   margin-bottom: 100px;
   padding: 20px 40px;
@@ -286,6 +287,9 @@ h3 {
   font-size: 1.3rem;
   margin: 20px 0;
 }
+#page_chic .menu_restau {
+  background-color: #fff5fe;
+}
 #page_chic .menu_restau--entrees {
   color: #d8852e;
 }
@@ -300,9 +304,6 @@ h3 {
   font-style: normal;
   margin-left: 40px;
   margin-right: 40px;
-}
-#page_chic .menu_restau {
-  background-color: #fff5fe;
 }
 
 /* LE DELICE DES PAPILLES - NAVIGATION */

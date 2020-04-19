@@ -46,6 +46,9 @@
         font-size : 1.3rem;
         margin : 20px 0;
     }
+    .menu_restau {
+        background-color :map-get($chic, bg);
+    }
     .menu_restau--entrees {
         color : map-get($chic, color1);
     }
@@ -60,8 +63,5 @@
         font-style : normal;
         margin-left: 40px;
         margin-right: 40px;
-    }
-    .menu_restau {
-        background-color :map-get($chic, bg);
     }
 }
