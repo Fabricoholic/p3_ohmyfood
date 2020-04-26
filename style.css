@@ -84,6 +84,7 @@ body {
 
 .menu_restau {
   width: 50%;
+  min-height: 800px;
   min-width: 200px;
   max-width: 700px;
   margin: auto;
@@ -104,9 +105,15 @@ section {
   justify-content: space-between;
   flex-wrap: nowrap;
 }
+.menu_flex p {
+  margin: 5px;
+}
 
 a {
   text-decoration: none;
+}
+a:hover {
+  border: 0;
 }
 
 h2 {
@@ -325,6 +332,7 @@ h3 {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 10px;
+  padding: 3px;
 }
 .delice_papilles h3 {
   font-family: "Kalam", serif;
@@ -388,7 +396,6 @@ h3 {
   margin-bottom: 10px;
 }
 .palette_gout h3 {
-  font-family: Itim;
   font-size: 2rem;
   font-weight: normal;
   color: #72bf55;

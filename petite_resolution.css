@@ -28,3 +28,10 @@
     padding-bottom: 120px;
 }
 
+.menu_flex {
+    margin-bottom: 15px;
+}
+
+.menu_flex p{
+        margin: 1px;
+}

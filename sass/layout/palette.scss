@@ -17,14 +17,12 @@
         font-family: map-get($palette, font-main), serif;
         font-size: 1.8rem;
         font-weight : normal;
-        //color: map-get($palette, color1);
         @include radient($palette);
         margin-top: 0;
         margin-bottom: 10px;
     }
 
     h3 {
-        font-family: Itim;
         font-size : 2rem;
         font-weight: normal;
         color: map-get($palette, color2);
