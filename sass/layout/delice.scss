@@ -50,6 +50,7 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
         text-align: center;
         font-size : 1.5rem;
         margin : 20px 0;
+        @include lignesoustitre;
     }
     p {
         font-family: map-get($delice, font-second);
@@ -60,6 +61,24 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
         background-color: map-get($delice, bg);
         &--desserts {
             margin-bottom: 40px;
+        }
+    }
+    .menu_restau--entrees {
+        color : map-get($delice, color1);
+        h4:hover::after {
+            background: map-get($delice, color1);
+        }
+    }
+    .menu_restau--plats {
+        color : map-get($delice, color2);
+        h4:hover::after {
+            background: map-get($delice, color2);
+        }
+    }
+    .menu_restau--desserts {
+        color : map-get($delice, color3);
+        h4:hover::after {
+            background: map-get($delice, color3);
         }
     }
 }
