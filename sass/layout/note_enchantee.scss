@@ -10,7 +10,6 @@
 
     i {
         font-size: 2.5rem;
-        color: map-get($note_enchantee, font-color);
         @include radientnote;
     }
 
@@ -36,6 +35,10 @@
 /* LA NOTE ENCHANTEE - PAGE */ 
 
 #page_note {
+    i {
+        font-size : 3rem;
+        @include radientnote;
+    }
     h3 {
         text-align : center;
         font-family : map-get($note_enchantee, font-main);
@@ -44,7 +47,6 @@
         font-size : 2.1rem;
         i {
             font-size : 3rem;
-            @include radientnote;
         }
 
     }
@@ -55,6 +57,7 @@
         font-size : 1.3rem;
         margin : 20px 0;
         @include lignesoustitre;
+        
         &::after {
             @include radientsoustitrenote;
         }

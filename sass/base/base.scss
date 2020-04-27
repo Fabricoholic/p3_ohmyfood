@@ -34,6 +34,7 @@ section {
 	flex-wrap: nowrap;
 	p {
 		margin: 5px;
+		white-space: nowrap;
 	}
 }
 
@@ -57,6 +58,8 @@ h2 {
 
 h4 {
 	padding: 0 70px;
+	cursor: pointer;
+	white-space: nowrap;
 }
 
 p {
@@ -67,6 +70,9 @@ p {
 	display:flex;
 	align-items: center;
 	justify-content: space-between;
+	img, .titre_flex h4 {
+		width: 30%;
+	}
 	
 
 }
