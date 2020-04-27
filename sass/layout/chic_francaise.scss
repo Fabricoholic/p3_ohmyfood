@@ -46,17 +46,31 @@
         font-size : 1.3rem;
         margin : 20px 0;
     }
+
     .menu_restau {
         background-color :map-get($chic, bg);
+        h4 {
+            @include lignesoustitre;
+        }
     }
+}
     .menu_restau--entrees {
         color : map-get($chic, color1);
+        h4:hover::after {
+            background: map-get($chic, color1);
+        }
     }
     .menu_restau--plats {
         color : map-get($chic, color2);
+        h4:hover::after {
+            background: map-get($chic, color2);
+        }
     }
     .menu_restau--desserts {
         color : map-get($chic, color3);
+        h4:hover::after {
+            background: map-get($chic, color3);
+        }
     }
     p {
         font-family: map-get($chic, font-second);
@@ -64,4 +78,3 @@
         margin-left: 40px;
         margin-right: 40px;
     }
-}

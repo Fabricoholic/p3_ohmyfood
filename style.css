@@ -122,12 +122,24 @@ h2 {
   font-size: 2rem;
 }
 
-h3 {
-  color: red;
+h4 {
+  padding: 0 70px;
 }
 
 p {
   margin: 8px 0;
+}
+
+.titre_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  height: 10px;
+  width: 35%;
+  max-width: 100%;
 }
 
 /* HEADER */
@@ -197,6 +209,9 @@ h3 {
 .note_enchantee i {
   font-size: 2.5rem;
   color: #3d1319;
+  background: linear-gradient(to right, #f15f62, #f6916a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .note_enchantee h2 {
   font-family: "Devonshire", cursive, serif;
@@ -225,6 +240,9 @@ h3 {
 }
 #page_note h3 i {
   font-size: 3rem;
+  background: linear-gradient(to right, #f15f62, #f6916a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #page_note h4 {
   font-family: "Itim";
@@ -232,6 +250,22 @@ h3 {
   text-align: center;
   font-size: 1.3rem;
   margin: 20px 0;
+  display: block;
+}
+#page_note h4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+#page_note h4:hover::after {
+  transform: scaleX(1);
+}
+#page_note h4::after {
+  background: linear-gradient(to right, #f15f62, #f6916a);
 }
 #page_note p {
   font-family: "Itim";
@@ -297,16 +331,44 @@ h3 {
 #page_chic .menu_restau {
   background-color: #fff5fe;
 }
-#page_chic .menu_restau--entrees {
+#page_chic .menu_restau h4 {
+  display: block;
+}
+#page_chic .menu_restau h4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+#page_chic .menu_restau h4:hover::after {
+  transform: scaleX(1);
+}
+
+.menu_restau--entrees {
   color: #d8852e;
 }
-#page_chic .menu_restau--plats {
+.menu_restau--entrees h4:hover::after {
+  background: #d8852e;
+}
+
+.menu_restau--plats {
   color: #a56798;
 }
-#page_chic .menu_restau--desserts {
+.menu_restau--plats h4:hover::after {
+  background: #a56798;
+}
+
+.menu_restau--desserts {
   color: #6e4ccc;
 }
-#page_chic p {
+.menu_restau--desserts h4:hover::after {
+  background: #6e4ccc;
+}
+
+p {
   font-family: "UTM Times";
   font-style: normal;
   margin-left: 40px;
@@ -359,6 +421,19 @@ h3 {
   text-align: center;
   font-size: 1.5rem;
   margin: 20px 0;
+  display: block;
+}
+#page_delice h4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+#page_delice h4:hover::after {
+  transform: scaleX(1);
 }
 #page_delice p {
   font-family: "Kalam";
@@ -370,6 +445,24 @@ h3 {
 }
 #page_delice .menu_restau--desserts {
   margin-bottom: 40px;
+}
+#page_delice .menu_restau--entrees {
+  color: #0128dd;
+}
+#page_delice .menu_restau--entrees h4:hover::after {
+  background: #0128dd;
+}
+#page_delice .menu_restau--plats {
+  color: #219cf9;
+}
+#page_delice .menu_restau--plats h4:hover::after {
+  background: #219cf9;
+}
+#page_delice .menu_restau--desserts {
+  color: #0570f3;
+}
+#page_delice .menu_restau--desserts h4:hover::after {
+  background: #0570f3;
 }
 
 /* LA PALETTE DU GOUT - NAVIGATION */
@@ -420,12 +513,30 @@ h3 {
   text-align: center;
   font-size: 1.4rem;
   margin: 20px 0;
+  color: black;
+  display: block;
+}
+#page_palette h4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+#page_palette h4:hover::after {
+  transform: scaleX(1);
+}
+#page_palette h4::after {
+  background: linear-gradient(to right, #51a444, #72bf55, #bafc7c);
 }
 #page_palette p {
   font-family: "Itim", sans-serif;
   font-style: italic;
   margin-left: 40px;
   margin-right: 40px;
+  color: black;
 }
 #page_palette .menu_restau {
   background-color: #fdfffd;

@@ -32,10 +32,14 @@ section {
 .menu_flex {
 	display:flex;
 	justify-content : space-between;
+<<<<<<< HEAD
 	flex-wrap: nowrap;
 	p {
 		margin: 5px;
 	}
+=======
+	flex-wrap: nowrap;  
+>>>>>>> CSSmenus
 }
 
 
@@ -55,11 +59,25 @@ h2 {
 	font-size: 2rem;
 }
 
-h3 {
-	color : red;
+
+h4 {
+	padding: 0 70px;
 }
 
 p {
 	margin: 8px 0;
 }
 
+.titre_flex{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	
+
+}
+
+.line {
+	height: 10px;
+	width: 35%;
+	max-width: 100%;
+}
