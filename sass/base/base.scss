@@ -57,7 +57,6 @@ h2 {
 
 
 h4 {
-	padding: 0 70px;
 	cursor: pointer;
 	white-space: nowrap;
 }
@@ -71,7 +70,7 @@ p {
 	align-items: center;
 	justify-content: space-between;
 	img, .titre_flex h4 {
-		width: 30%;
+		max-width: 30%;
 	}
 	
 
