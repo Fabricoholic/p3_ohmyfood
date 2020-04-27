@@ -8,14 +8,16 @@ body {
 .page {
 	width: 100%;
 	margin: auto;
+	h3  {
+		margin: 20px 0;
+	}
 }
 
 
 .menu_restau {
-	width : 50%;
 	min-height: 800px;
 	min-width: 200px;
-	max-width: 700px;
+	max-width: 600px;
 	margin: auto;
 	margin-bottom : 100px;
 	padding : 20px 40px;
@@ -34,7 +36,7 @@ section {
 	justify-content : space-between;
 	flex-wrap: nowrap;
 	p {
-		margin: 5px;
+		margin: 5px 40px;
 	}
 }
 
@@ -57,7 +59,8 @@ h2 {
 
 
 h4 {
-	padding: 0 70px;
+	cursor: pointer;
+	white-space: nowrap;
 }
 
 p {
@@ -68,12 +71,7 @@ p {
 	display:flex;
 	align-items: center;
 	justify-content: space-between;
-	
-
-}
-
-.line {
-	height: 10px;
-	width: 35%;
-	max-width: 100%;
+	img {
+		max-width: 30%;
+	}
 }

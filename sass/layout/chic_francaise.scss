@@ -7,9 +7,6 @@
 
 .chic_francaise {
     background-color: map-get($chic, bg);
-    &:hover {
-        @include fond($chic);
-    }
 
     h2 {
         font-family: map-get($chic, font-main), serif;
@@ -53,7 +50,7 @@
             @include lignesoustitre;
         }
     }
-}
+
     .menu_restau--entrees {
         color : map-get($chic, color1);
         h4:hover::after {
@@ -78,3 +75,4 @@
         margin-left: 40px;
         margin-right: 40px;
     }
+}

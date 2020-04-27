@@ -1,17 +1,13 @@
 /* LE DELICE DES PAPILLES - NAVIGATION */ 
 
 .delice_papilles h2, #page_delice h3 {
-background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($delice, color2), map-get($delice, color3));
+background: linear-gradient(to right, map-get($delice, color1) 30%, map-get($delice, color2), map-get($delice, color3));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
 .delice_papilles {
     background-color: map-get($delice, bg);
-
-    &:hover {
-        @include fond($delice)
-    }
 
     h2 {
         font-family: map-get($delice, font-main), serif;
@@ -37,10 +33,8 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
     h3 {
         text-align : center;
         font-family : map-get($delice, font-main);
-        color: map-get($delice, color1);
         font-weight : normal;
-        font-size : 3.5rem;
-        margin: 20px 0px;
+        font-size : 3rem;
     }
     section {
         padding : 20px 0;
@@ -52,6 +46,7 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
         font-size : 1.5rem;
         margin : 20px 0;
         @include lignesoustitre;
+        
     }
     p {
         font-family: map-get($delice, font-second);
@@ -60,26 +55,22 @@ background: linear-gradient(to right, map-get($delice, color1) 50%, map-get($del
     }
     .menu_restau {
         background-color: map-get($delice, bg);
-        &--desserts {
-            margin-bottom: 40px;
-        }
     }
+    
     .menu_restau--entrees {
-        color : map-get($delice, color1);
         h4:hover::after {
             background: map-get($delice, color1);
         }
     }
     .menu_restau--plats {
-        color : map-get($delice, color2);
         h4:hover::after {
             background: map-get($delice, color2);
         }
     }
     .menu_restau--desserts {
-        color : map-get($delice, color3);
         h4:hover::after {
             background: map-get($delice, color3);
         }
     }
+
 }

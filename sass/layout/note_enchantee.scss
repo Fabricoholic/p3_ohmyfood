@@ -4,13 +4,9 @@
 .note_enchantee {
     background-color: map-get($note_enchantee, bg);
     transition : background-color 300ms 50ms;
-    &:hover {
-        @include fond($note_enchantee)
-    }
 
     i {
         font-size: 2.5rem;
-        color: map-get($note_enchantee, font-color);
         @include radientnote;
     }
 
@@ -36,6 +32,10 @@
 /* LA NOTE ENCHANTEE - PAGE */ 
 
 #page_note {
+    i {
+        font-size : 3rem;
+        @include radientnote;
+    }
     h3 {
         text-align : center;
         font-family : map-get($note_enchantee, font-main);
@@ -44,7 +44,6 @@
         font-size : 2.1rem;
         i {
             font-size : 3rem;
-            @include radientnote;
         }
 
     }
@@ -68,6 +67,11 @@
     .menu_restau {
         background-color :map-get($note_enchantee, bg);
     }
+    .menu_flex {
+        p {
+            margin: 5px 0;
+        }
+    }
     h5 {
         font-family : map-get($note_enchantee, font-main);
         color : map-get($note_enchantee, font-color);
@@ -75,5 +79,8 @@
         font-size : 1.7rem;
         font-weight: normal;
         margin : 30px 10px;
+        i {
+            font-size: 1.7rem;
+        }
     }
 }

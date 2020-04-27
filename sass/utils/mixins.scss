@@ -13,11 +13,11 @@
 
 // Dégradés textes
  @mixin radient($restaurant) {
-      background: linear-gradient(to right, map-get($restaurant, color1), map-get($restaurant, color2), map-get($restaurant, color3));
+      background: linear-gradient(to right, map-get($restaurant, color1), map-get($restaurant, color2)20%, map-get($restaurant, color3));
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
 }
-
+    // Special pour note qui ne comporte que deux couleurs au lieu de trois
 @mixin radientnote {
     background: linear-gradient(to right, map-get($note_enchantee, color1), map-get($note_enchantee, color2));
      -webkit-background-clip: text;
@@ -31,7 +31,7 @@
         content: "";
         display: block;
         width: 100%;
-        height: 3px;
+        height: 2px;
         transform : scaleX(0);
         transform-origin: left;
         transition: transform 200ms ease;
@@ -41,17 +41,13 @@
     }
   }
 
+// Couleur de la ligne
+
 @mixin radientsoustitre($restaurant) {
     background: linear-gradient(to right, map-get($restaurant, color1), map-get($restaurant, color2), map-get($restaurant, color3));
 }
-
+    // Special pour note qui ne comporte que deux couleurs au lieu de trois
 @mixin radientsoustitrenote {
   background: linear-gradient(to right, map-get($note_enchantee, color1), map-get($note_enchantee, color2));
 
-}
-
-// Changement de couleur du fond du menu quand on survole (index)
-/* JE VOUDRAIS EN FAIRE UNE LOOP POUR ADAPTER SELON LES FONDS */
-@mixin fond($restaurant) {
-    background-color: transparentize(map-get($restaurant, bg), 0.7%);
 }

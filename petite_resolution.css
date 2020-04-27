@@ -28,6 +28,10 @@
     padding-bottom: 120px;
 }
 
+h4 {
+    white-space: normal;
+}
+
 .menu_flex {
     margin-bottom: 15px;
 }
