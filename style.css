@@ -190,6 +190,7 @@ nav {
 }
 .menus a:hover {
   transform: scale(1.1);
+  opacity: 0.8;
 }
 
 h3 {
@@ -201,9 +202,6 @@ h3 {
 .note_enchantee {
   background-color: #fde0dc;
   transition: background-color 300ms 50ms;
-}
-.note_enchantee:hover {
-  background-color: rgba(253, 224, 220, 0.3);
 }
 .note_enchantee i {
   font-size: 2.5rem;
@@ -301,9 +299,6 @@ h3 {
 .chic_francaise {
   background-color: #fff5fe;
 }
-.chic_francaise:hover {
-  background-color: rgba(255, 245, 254, 0.3);
-}
 .chic_francaise h2 {
   font-family: "Croissant One", serif;
   font-size: 1.2rem;
@@ -388,9 +383,6 @@ h3 {
 .delice_papilles {
   background-color: #f9f9f9;
 }
-.delice_papilles:hover {
-  background-color: rgba(249, 249, 249, 0.3);
-}
 .delice_papilles h2 {
   font-family: "Dancing Script", serif;
   font-size: 2rem;
@@ -463,9 +455,6 @@ h3 {
 
 .palette_gout {
   background-color: #fdfffd;
-}
-.palette_gout:hover {
-  background-color: rgba(253, 255, 253, 0.3);
 }
 .palette_gout h2 {
   font-family: "Kaushan Script", serif;

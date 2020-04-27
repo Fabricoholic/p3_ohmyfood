@@ -51,8 +51,3 @@
   background: linear-gradient(to right, map-get($note_enchantee, color1), map-get($note_enchantee, color2));
 
 }
-
-// Changement de couleur du fond du menu quand on survole (index)
-@mixin fond($restaurant) {
-    background-color: transparentize(map-get($restaurant, bg), 0.7%);
-}

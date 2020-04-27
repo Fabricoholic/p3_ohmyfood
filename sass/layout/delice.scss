@@ -9,10 +9,6 @@ background: linear-gradient(to right, map-get($delice, color1) 30%, map-get($del
 .delice_papilles {
     background-color: map-get($delice, bg);
 
-    &:hover {
-        @include fond($delice)
-    }
-
     h2 {
         font-family: map-get($delice, font-main), serif;
         font-size: 2rem;
@@ -50,6 +46,7 @@ background: linear-gradient(to right, map-get($delice, color1) 30%, map-get($del
         font-size : 1.5rem;
         margin : 20px 0;
         @include lignesoustitre;
+        
     }
     p {
         font-family: map-get($delice, font-second);
@@ -75,4 +72,5 @@ background: linear-gradient(to right, map-get($delice, color1) 30%, map-get($del
             background: map-get($delice, color3);
         }
     }
+
 }
