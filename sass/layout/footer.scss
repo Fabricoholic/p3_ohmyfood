@@ -16,7 +16,7 @@ footer {
     p {
         margin: 10px 20px;
         &:hover {
-        animation: shake 0.5s;
+        animation: shake 500ms;
         animation-iteration-count: infinite;
         }
     }
