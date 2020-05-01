@@ -1,5 +1,6 @@
 @import "./sass/utils/variables";
 @import "./sass/utils/mixins";
+@import "./sass/utils/keyframes";
 
 @import "./sass/base/typography";
 @import "./sass/base/base";
@@ -12,6 +13,8 @@
 @import "./sass/layout/chic_francaise.scss";
 @import "./sass/layout/delice";
 @import "./sass/layout/palette";
+@import "./sass/layout/prochainement";
+@import "./sass/layout/mentions_legales.scss";
 
 @import "./sass/composants/buttons";
 

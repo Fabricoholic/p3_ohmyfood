@@ -1,0 +1,12 @@
+#page_mentions-legales {
+    article {
+        @extend .menu_restau;
+        text-align: justify;
+    }
+    h2 {
+        margin: 50px;
+    }
+    p {
+        margin-bottom : 25px;
+    }
+}

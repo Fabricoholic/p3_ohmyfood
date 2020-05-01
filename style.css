@@ -1,7 +1,19 @@
 /* VARIABLES */
 /* MAPS */
+/* MIXINS */
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&family=Open+Sans:wght@400;700&family=Itim&family=Croissant+One&family=Dancing+Script:wght@400;700&family=Dancing+Script:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Kaushan+Script&family=Caveat:wght@400;700&display=swap");
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes shake {
   25% {
     transform: translate(2px, 0px) rotate(1deg);
@@ -27,7 +39,6 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   } */
-/* MIXINS */
 /* TYPOGRAPHIE */
 @font-face {
   font-family: "Alte Haas Grotesk";
@@ -74,7 +85,7 @@ body {
   margin: 20px 0;
 }
 
-.menu_restau {
+.menu_restau, #page_mentions-legales article {
   min-height: 800px;
   min-width: 200px;
   max-width: 600px;
@@ -83,7 +94,7 @@ body {
   padding: 20px 40px;
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
 }
-.menu_restau section {
+.menu_restau section, #page_mentions-legales article section {
   padding: 15px 0;
 }
 
@@ -261,7 +272,7 @@ h3 {
   color: #3d1319;
   font-style: italic;
 }
-#page_note .menu_restau {
+#page_note .menu_restau, #page_note #page_mentions-legales article, #page_mentions-legales #page_note article {
   background-color: #fde0dc;
 }
 #page_note .menu_flex p {
@@ -320,13 +331,13 @@ h3 {
   font-size: 1.3rem;
   margin: 20px 0;
 }
-#page_chic .menu_restau {
+#page_chic .menu_restau, #page_chic #page_mentions-legales article, #page_mentions-legales #page_chic article {
   background-color: #fff5fe;
 }
-#page_chic .menu_restau h4 {
+#page_chic .menu_restau h4, #page_chic #page_mentions-legales article h4, #page_mentions-legales #page_chic article h4 {
   display: block;
 }
-#page_chic .menu_restau h4::after {
+#page_chic .menu_restau h4::after, #page_chic #page_mentions-legales article h4::after, #page_mentions-legales #page_chic article h4::after {
   content: "";
   display: block;
   width: 100%;
@@ -335,7 +346,7 @@ h3 {
   transform-origin: left;
   transition: transform 200ms ease;
 }
-#page_chic .menu_restau h4:hover::after {
+#page_chic .menu_restau h4:hover::after, #page_chic #page_mentions-legales article h4:hover::after, #page_mentions-legales #page_chic article h4:hover::after {
   transform: scaleX(1);
 }
 #page_chic .menu_restau--entrees {
@@ -423,7 +434,7 @@ h3 {
   margin-left: 40px;
   margin-right: 40px;
 }
-#page_delice .menu_restau {
+#page_delice .menu_restau, #page_delice #page_mentions-legales article, #page_mentions-legales #page_delice article {
   background-color: #f9f9f9;
 }
 #page_delice .menu_restau--entrees h4:hover::after {
@@ -506,8 +517,23 @@ h3 {
   margin-right: 40px;
   color: black;
 }
-#page_palette .menu_restau {
+#page_palette .menu_restau, #page_palette #page_mentions-legales article, #page_mentions-legales #page_palette article {
   background-color: #fdfffd;
+}
+
+/*  PAGE PROCHAINEMENT */
+#page_prochainement .btn_prochainement {
+  margin-top: 70px;
+}
+
+#page_mentions-legales article {
+  text-align: justify;
+}
+#page_mentions-legales h2 {
+  margin: 50px;
+}
+#page_mentions-legales p {
+  margin-bottom: 25px;
 }
 
 .btn_prochainement {
@@ -521,6 +547,19 @@ h3 {
   padding: 5px 50px;
   border-radius: 8px;
   font-size: 2rem;
+}
+
+.dot {
+  animation: appear 3s backwards infinite;
+}
+.dot--1 {
+  animation-delay: 300ms;
+}
+.dot--2 {
+  animation-delay: 600ms;
+}
+.dot--3 {
+  animation-delay: 900ms;
 }
 
 /* FOOTER */

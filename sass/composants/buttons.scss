@@ -9,3 +9,12 @@
         font-size : 2rem;
     }
 }
+
+.dot {
+  animation: appear 3s backwards infinite;
+  @for $i from 1 through 3 {
+    &--#{$i} {
+      animation-delay : $anim-delay * $i;
+    }
+  }
+}

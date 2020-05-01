@@ -39,3 +39,12 @@ h4 {
 .menu_flex p{
         margin: 1px;
 }
+
+#page_prochainement .btn_prochainement {
+        margin-top: 50px;
+}
+
+#page_prochainement .btn_prochainement a {
+    white-space: nowrap;
+    font-size : 1.7rem;
+}
