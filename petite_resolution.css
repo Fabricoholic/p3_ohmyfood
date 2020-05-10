@@ -13,11 +13,11 @@
 }
 
 .menu_restau h3 {
-    font-size : 2.5 rem;
+    font-size : 2.5rem;
 }
 
 .menu_restau h4 {
-    font-size : 2.5 rem;
+    font-size : 2.5rem;
 }
 
 .menu_flex, footer {
@@ -26,6 +26,11 @@
 
 .btn_prochainement {
     padding-bottom: 120px;
+}
+
+.btn_prochainement a {
+    font-size : 1.5rem;
+    padding : 5px 30px;
 }
 
 h4 {
