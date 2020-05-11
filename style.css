@@ -301,29 +301,29 @@ h3 {
 }
 
 /* CHIC A LA FRANCAISE - PAGE */
-#page_chic h3 h3 {
+#page_chic h3 {
   text-align: center;
   font-family: "Croissant One";
   color: #d8852e;
   font-weight: normal;
   font-size: 2.1rem;
 }
-#page_chic h3 section {
+#page_chic section {
   padding: 20px 0;
 }
-#page_chic h3 h4 {
+#page_chic h4 {
   font-family: "UTM Times";
   text-align: center;
   font-size: 1.3rem;
   margin: 20px 0;
 }
-#page_chic h3 .menu_restau, #page_chic h3 #page_mentions-legales article, #page_mentions-legales #page_chic h3 article {
+#page_chic .menu_restau, #page_chic #page_mentions-legales article, #page_mentions-legales #page_chic article {
   background-color: #fff5fe;
 }
-#page_chic h3 .menu_restau h4, #page_chic h3 #page_mentions-legales article h4, #page_mentions-legales #page_chic h3 article h4 {
+#page_chic .menu_restau h4, #page_chic #page_mentions-legales article h4, #page_mentions-legales #page_chic article h4 {
   display: block;
 }
-#page_chic h3 .menu_restau h4::after, #page_chic h3 #page_mentions-legales article h4::after, #page_mentions-legales #page_chic h3 article h4::after {
+#page_chic .menu_restau h4::after, #page_chic #page_mentions-legales article h4::after, #page_mentions-legales #page_chic article h4::after {
   content: "";
   display: block;
   width: 100%;
@@ -332,28 +332,28 @@ h3 {
   transform-origin: left;
   transition: transform 200ms ease;
 }
-#page_chic h3 .menu_restau h4:hover::after, #page_chic h3 #page_mentions-legales article h4:hover::after, #page_mentions-legales #page_chic h3 article h4:hover::after {
+#page_chic .menu_restau h4:hover::after, #page_chic #page_mentions-legales article h4:hover::after, #page_mentions-legales #page_chic article h4:hover::after {
   transform: scaleX(1);
 }
-#page_chic h3 .menu_restau--entrees {
+#page_chic .menu_restau--entrees {
   color: #d8852e;
 }
-#page_chic h3 .menu_restau--entrees h4:hover::after {
+#page_chic .menu_restau--entrees h4:hover::after {
   background: #d8852e;
 }
-#page_chic h3 .menu_restau--plats {
+#page_chic .menu_restau--plats {
   color: #a56798;
 }
-#page_chic h3 .menu_restau--plats h4:hover::after {
+#page_chic .menu_restau--plats h4:hover::after {
   background: #a56798;
 }
-#page_chic h3 .menu_restau--desserts {
+#page_chic .menu_restau--desserts {
   color: #6e4ccc;
 }
-#page_chic h3 .menu_restau--desserts h4:hover::after {
+#page_chic .menu_restau--desserts h4:hover::after {
   background: #6e4ccc;
 }
-#page_chic h3 p {
+#page_chic p {
   font-family: "UTM Times";
   font-style: normal;
   margin-left: 40px;
