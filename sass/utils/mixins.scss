@@ -44,7 +44,8 @@
 // Couleur de la ligne
 
 @mixin radientsoustitre($restaurant) {
-    background: linear-gradient(to right, map-get($restaurant, color1), map-get($restaurant, color2), map-get($restaurant, color3));
+    background: linear-gradient(to right, map-get($restaurant, color1), 
+    map-get($restaurant, color2), map-get($restaurant, color3));
 }
     // Special pour note qui ne comporte que deux couleurs au lieu de trois
 @mixin radientsoustitrenote {
