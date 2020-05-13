@@ -1,4 +1,4 @@
-/* MIXINS */
+// MIXINS
 
 // Couleurs principales pour le header et footer
 @mixin couleurs {
@@ -17,7 +17,7 @@
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
 }
-    // Special pour note qui ne comporte que deux couleurs au lieu de trois
+        //  (Special pour note qui ne comporte que deux couleurs au lieu de trois)
 @mixin radientnote {
     background: linear-gradient(to right, map-get($note_enchantee, color1), map-get($note_enchantee, color2));
      -webkit-background-clip: text;

@@ -1,4 +1,4 @@
-/* VARIABLES */
+// VARIABLES GENERALES 
 
 $bg: #579c87; //fonds des boutons, entête... */
 $text: #fdcb46; // couleur de textes */
@@ -6,7 +6,7 @@ $text: #fdcb46; // couleur de textes */
 $font_main: 'Open Sans'; // police H1 et footer */
 $font_default: sans-serif; // police défaut */
 
-/* MAPS */
+// MAPS PAR RESTAURANT = "THEME"
 
 $note_enchantee : (
     font-main: 'Devonshire',
@@ -46,3 +46,7 @@ $palette : (
     bg: #fdfffd
 );
 
+
+// VARIABLES SPECIFIQUES AUX ANIMATIONS 
+
+$anim-delay : 300ms;

@@ -7,7 +7,6 @@
 
 .chic_francaise {
     background-color: map-get($chic, bg);
-
     h2 {
         font-family: map-get($chic, font-main), serif;
         font-size: 1.2rem;
@@ -23,6 +22,8 @@
         color: map-get($chic, color1);
     }
 }
+
+
 
 /* CHIC A LA FRANCAISE - PAGE */
 
